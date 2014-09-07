@@ -17,14 +17,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='template-remover',
-    version='0.1.7',
+    version='0.1.8',
     description='Remove the template markup from html files',
     long_description=open('README.rst').read(),
     author='Sebastian Kreft - Deezer',
     author_email='skreft@deezer.com',
     url='http://github.com/deezer/template-remover',
     py_modules=['template_remover'],
-    install_requires=['docopt==0.6.1'],
+    install_requires=['docopt>=0.6.1'],
     tests_require=['nose>=1.3'],
     scripts=['scripts/remove_template.py'],
     classifiers=[
